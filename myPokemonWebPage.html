@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Pokémon by Region</title>
+
+  <style>
+    /* Simple, clean styling that any beginner can explain */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f6f8;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #d32f2f;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+
+    section {
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    /* Pokemon Card Styling */
+    .pokemon-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      padding: 15px;
+      margin-top: 15px;
+      text-align: center;
+      background-color: #fafafa;
+    }
+
+    .pokemon-card img {
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+
+    .pokemon-card p {
+      text-align: left;
+    }
+
+    /* Link Styling */
+    a {
+      color: #1565c0;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #263238;
+      color: #ffffff;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Semantic Header -->
+  <header>
+    <h1>My Favorite Pokémon Across Regions</h1>
+    <p>A simple showcase of standout Pokémon from Kanto, Johto, and Hoenn.</p>
+  </header>
+
+  <!-- Semantic Main Landmark -->
+  <main>
+
+    <!-- Requirement 1: List with at least 3 items -->
+    <section>
+      <h2>Featured Regions Overview</h2>
+      <p>Here are the three regions and Pokémon highlighted on this page:</p>
+      <ul>
+        <li><strong>Kanto (Generation I):</strong> Charizard - Fire / Flying Type</li>
+        <li><strong>Johto (Generation II):</strong> Tyranitar - Rock / Dark Type</li>
+        <li><strong>Hoenn (Generation III):</strong> Rayquaza - Dragon / Flying Type</li>
+      </ul>
+    </section>
+
+    <!-- Requirement 2: At least 3 Images with descriptive alt text -->
+    <section>
+      <h2>Favorite Pokémon Details</h2>
+
+      <!-- Pokemon 1 -->
+      <article class="pokemon-card">
+        <h3>1. Charizard (Kanto Region)</h3>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+          alt="Charizard, a large orange bipedal dragon with blue wings and a fiery tail" width="160" height="160">
+        <p>
+          Charizard is my all-time favorite Pokémon from the original Kanto region.
+          It has high speed, powerful fire-based attacks, and an iconic design that inspired many trainers.
+        </p>
+      </article>
+
+      <!-- Pokemon 2 -->
+      <article class="pokemon-card">
+        <h3>2. Tyranitar (Johto Region)</h3>
+        <img
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png"
+          alt="Tyranitar, a large bipedal green armored dinosaur Pokémon" width="160" height="160">
+        <p>
+          Tyranitar is a pseudo-legendary Pokémon introduced in Generation II.
+          Its thick rock-like armor makes it nearly impervious to damage, and it can summon sandstorms in battle.
+        </p>
+      </article>
+
+      <!-- Pokemon 3 -->
+      <article class="pokemon-card">
+        <h3>3. Rayquaza (Hoenn Region)</h3>
+        <img
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png"
+          alt="Rayquaza, a long green serpentine dragon flying in the sky with yellow patterns" width="160"
+          height="160">
+        <p>
+          Rayquaza is a legendary Dragon and Flying type that lives high in the ozone layer.
+          It is the trio master of Kyogre and Groudon, capable of calming massive weather disasters.
+        </p>
+      </article>
+    </section>
+
+    <!-- Requirement 3: External Link with descriptive text -->
+    <section>
+      <h2>Official Resources</h2>
+      <p>Want to check Pokédex entries, base stats, and games?</p>
+      <p>
+        <a href="https://www.pokemon.com" target="_blank" rel="noopener">
+          Visit the Official Pokémon Website
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Semantic Footer -->
+  <footer>
+    <p>&copy; 2025 Personal Pokémon Project. Built for Web Development Final Assignment.</p>
+  </footer>
+
+</body>
+
+</html>
